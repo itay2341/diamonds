@@ -28,7 +28,7 @@ st.text("""""")
 st.text("""""")
 st.text("""""")
 
-if st.button('Source code', help='Click to open the notebook in kaggle'):
+if st.button('Source code'):
     webbrowser.open_new_tab(url)
 
 st.sidebar.header('User Input Parameters')
